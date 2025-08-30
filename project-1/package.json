@@ -1,0 +1,21 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "Node.js + Express + MySQL project with unoptimized analytics endpoint",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "unoptimized": "node src/unoptimized.js",
+    "optimized": "node src/optimized.js",
+    "seed": "node seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.14.3",
+    "node-cache": "^5.1.2"
+  }
+}
